@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#14263f">
+  <meta name="application-name" content="STRIVE Physical Therapy">
+  <meta name="apple-mobile-web-app-title" content="STRIVE PT">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <title>STRIVE Insights | Blog and Newsletter Archive</title>
+  <meta name="description" content="Browse STRIVE Physical Therapy blog posts, newsletter updates, and podcast episodes with filters for interventions, topics, and content type.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://striveptlv.com/insights/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="STRIVE Physical Therapy">
+  <meta property="og:title" content="STRIVE Insights | Blog and Newsletter Archive">
+  <meta property="og:description" content="A searchable archive of STRIVE blog posts, newsletter updates, and podcast episodes.">
+  <meta property="og:url" content="https://striveptlv.com/insights/">
+  <meta property="og:image" content="https://striveptlv.com/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="STRIVE Insights | Blog and Newsletter Archive">
+  <meta name="twitter:description" content="Browse STRIVE blog posts, newsletter updates, and podcast episodes by intervention, topic, and type.">
+  <meta name="twitter:image" content="https://striveptlv.com/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://striveptlv.com/insights/#collection",
+        "url": "https://striveptlv.com/insights/",
+        "name": "STRIVE Insights",
+        "description": "Archive of STRIVE Physical Therapy blog posts, newsletter updates, and podcast episodes."
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://striveptlv.com/insights/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://striveptlv.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Insights",
+            "item": "https://striveptlv.com/insights/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --black: #e9f1f3;
+      --dark: #f2f7f8;
+      --dark2: #ffffff;
+      --dark3: #e4edf1;
+      --lime: #3f6577;
+      --lime-dim: #2f4f5f;
+      --lime-pale: rgba(63,101,119,0.12);
+      --blue: #6d98ad;
+      --white: #102838;
+      --white-dim: #415867;
+      --border: rgba(16,40,56,0.14);
+      --border-lime: rgba(63,101,119,0.24);
+      --nav-bg: rgba(14, 37, 42, 0.96);
+      --nav-line: rgba(148, 182, 194, 0.18);
+      --nav-text: rgba(255,255,255,0.74);
+      --nav-text-strong: #ffffff;
+      --footer-bg: #10292d;
+      --footer-line: rgba(255,255,255,0.08);
+      --footer-text: rgba(255,255,255,0.78);
+      --footer-soft: rgba(255,255,255,0.58);
+      --footer-faint: rgba(255,255,255,0.34);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--black);
+      color: var(--white);
+      overflow-x: hidden;
+      padding-top: 70px;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+    body.menu-open { overflow: hidden; }
+    img { max-width: 100%; height: auto; }
+    a { color: inherit; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      background: var(--nav-bg); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--nav-line);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 5vw; height: 70px;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 11px; text-decoration: none; }
+    .logo-img { width: 50px; height: 50px; object-fit: contain; flex-shrink: 0; }
+    .logo-text { font-family: 'Bebas Neue', sans-serif; font-size: 26px; color: var(--nav-text-strong); line-height: 1; letter-spacing: 3px; }
+    .logo-sub { font-size: 9px; font-family: 'Barlow', sans-serif; color: #8fb8c6; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; margin-top: 1px; }
+    .nav-links { display: flex; align-items: center; gap: 26px; }
+    .nav-links a { color: var(--nav-text); text-decoration: none; font-size: 13px; font-weight: 500; letter-spacing: 0.5px; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: #c9e0e8; }
+    .nav-book { background: #6d98ad !important; color: var(--nav-text-strong) !important; padding: 9px 20px; border-radius: 2px; font-weight: 700 !important; letter-spacing: 1px !important; }
+    .nav-dropdown { position: relative; display: flex; align-items: center; }
+    .nav-dropdown > a { display: flex; align-items: center; gap: 5px; padding: 24px 0; }
+    .nav-dropdown > a::after {
+      content: "";
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 5px solid rgba(255,255,255,0.55);
+      transition: transform 0.2s, border-top-color 0.2s;
+    }
+    .nav-dropdown:hover > a::after { transform: rotate(180deg); border-top-color: #c9e0e8; }
+    .dropdown-menu {
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #133339;
+      border: 1px solid rgba(143,184,198,0.18);
+      border-radius: 2px;
+      min-width: 190px;
+      overflow: hidden;
+      box-shadow: none;
+      transition: opacity 0.15s;
+    }
+    .nav-dropdown:hover .dropdown-menu { opacity: 1; pointer-events: auto; }
+    .dropdown-menu a {
+      display: block;
+      color: rgba(255,255,255,0.78);
+      font-size: 13.5px;
+      padding: 11px 18px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+    .dropdown-menu a:last-child { border-bottom: none; }
+    .dropdown-menu a:hover { background: rgba(143,184,198,0.12); color: #d8edf3; }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .nav-toggle span { width: 22px; height: 2px; background: white; border-radius: 2px; }
+    .mobile-menu {
+      display: none; flex-direction: column; position: fixed; top: 70px; left: 0; right: 0; bottom: 0;
+      background: #10292d; z-index: 199; padding: 32px 6vw; overflow-y: auto;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      color: rgba(255,255,255,0.82); text-decoration: none; font-size: 20px;
+      font-family: 'Barlow Condensed', sans-serif; font-weight: 600;
+      letter-spacing: 1px; text-transform: uppercase;
+      padding: 16px 0; border-bottom: 1px solid var(--border);
+    }
+    .mob-dropdown { border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .mob-dropdown-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgba(255,255,255,0.82);
+      font-size: 20px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 16px 0;
+      cursor: pointer;
+    }
+    .mob-arrow {
+      font-size: 22px;
+      color: #8fb8c6;
+      display: inline-block;
+      transition: transform 0.25s;
+    }
+    .mob-arrow.open { transform: rotate(90deg); }
+    .mob-dropdown-items { display: none; flex-direction: column; padding-left: 16px; }
+    .mob-dropdown-items.open { display: flex; }
+    .mob-dropdown-items a {
+      font-size: 15px !important;
+      padding: 12px 0 !important;
+      border-bottom: 1px solid rgba(255,255,255,0.04) !important;
+      color: rgba(255,255,255,0.66) !important;
+    }
+    .mob-dropdown-items a:last-child { border-bottom: none !important; }
+    .mob-book {
+      background: #6d98ad; color: var(--nav-text-strong) !important; text-align: center;
+      border-radius: 2px; padding: 16px !important; margin-top: 28px;
+      border: none !important; font-size: 16px; font-weight: 700 !important;
+    }
+
+    .section-inner, .footer-inner { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(64px, 7vw, 104px);
+      line-height: 0.92;
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 6px;
+      letter-spacing: 2px;
+    }
+    section { padding: 96px 5vw; }
+    .archive-section {
+      position: relative;
+      background: var(--dark);
+    }
+    .archive-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    .section-label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px; letter-spacing: 4px; text-transform: uppercase;
+      color: var(--lime); font-weight: 700; margin-bottom: 12px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .section-label::after { content: ""; width: 28px; height: 2px; background: var(--lime); }
+    .archive-header h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(42px, 5vw, 64px);
+      font-weight: 400;
+      line-height: 0.95;
+      color: var(--white);
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+    .archive-header p {
+      color: var(--white-dim);
+      font-size: 15.5px;
+      line-height: 1.7;
+      max-width: 600px;
+    }
+    .archive-meta {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--lime);
+      white-space: nowrap;
+      padding: 0;
+      background: transparent;
+      border: none;
+    }
+
+    .filter-shell {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      align-items: stretch;
+      background: transparent;
+    }
+    .filters-card {
+      position: static;
+      background: var(--dark2);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--lime);
+      border-radius: 0;
+      padding: 28px;
+      box-shadow: none;
+    }
+    .filters-card h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      margin-bottom: 10px;
+      color: var(--white);
+      letter-spacing: 1.5px;
+    }
+    .filters-card > p {
+      color: var(--white-dim);
+      font-size: 14px;
+      line-height: 1.75;
+      margin-bottom: 22px;
+    }
+    .search-label,
+    .filter-group h4 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--white-dim);
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+    .search-input {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 0;
+      padding: 13px 14px;
+      font: inherit;
+      color: var(--white);
+      background: var(--dark3);
+      margin-bottom: 20px;
+      outline: none;
+    }
+    .search-input:focus {
+      border-color: var(--lime);
+      box-shadow: none;
+    }
+    .filter-group { margin-bottom: 20px; }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .filter-chip,
+    .summary-chip,
+    .article-chip {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0;
+      border: 1px solid var(--border);
+      padding: 6px 10px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      line-height: 1;
+      background: var(--dark3);
+      color: var(--white-dim);
+    }
+    .filter-chip {
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
+    }
+    .filter-chip:hover {
+      border-color: var(--border-lime);
+      color: var(--lime);
+      transform: none;
+    }
+    .filter-chip.active {
+      background: var(--lime-pale);
+      color: var(--lime);
+      border-color: var(--border-lime);
+    }
+    .reset-link {
+      display: inline-block;
+      margin-top: 6px;
+      color: var(--lime);
+      font-size: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .reset-link:hover { color: var(--lime-dim); }
+
+    .results-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .results-count { color: var(--white-dim); font-size: 14px; }
+    .active-summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .summary-chip { background: var(--lime-pale); border-color: var(--border-lime); color: var(--lime); }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+    .article-card {
+      background: var(--dark2);
+      border-radius: 0;
+      border: 1px solid var(--border);
+      overflow: hidden;
+      box-shadow: none;
+      transition: background 0.2s, border-color 0.2s;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+    }
+    .article-card:hover { transform: none; box-shadow: none; background: #f8fbfc; border-color: rgba(63,101,119,0.28); }
+    .article-rail {
+      height: 4px;
+      background: linear-gradient(90deg, #86aebc, #527b90);
+    }
+    .article-body {
+      padding: 28px 26px 24px;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .article-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+      color: #3c5260;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+    }
+    .article-type {
+      color: var(--lime);
+      font-weight: 600;
+    }
+    .article-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 38px;
+      line-height: 1;
+      font-weight: 400;
+      color: var(--white);
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+    }
+    .article-desc {
+      color: #3c5260;
+      font-size: 14.5px;
+      line-height: 1.78;
+      margin-bottom: 18px;
+      flex: 1;
+    }
+    .article-chip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+    .article-chip { background: rgba(82,123,144,0.1); color: var(--lime); border-color: rgba(82,123,144,0.22); }
+    .article-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+    .article-link {
+      color: var(--lime);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .article-link:hover { color: var(--lime-dim); }
+    .article-keywords {
+      color: var(--white-dim);
+      font-size: 12.5px;
+    }
+    .empty-state {
+      display: none;
+      background: var(--dark2);
+      border: 1px solid var(--border);
+      border-radius: 0;
+      padding: 36px;
+      color: var(--white-dim);
+      font-size: 15px;
+      line-height: 1.8;
+      text-align: center;
+      box-shadow: none;
+    }
+
+    .system-section {
+      background: linear-gradient(180deg, #f4f8fa 0%, #edf3f5 100%);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .system-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      background: transparent;
+    }
+    .system-card {
+      background: var(--dark2);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--lime);
+      border-radius: 0;
+      padding: 28px;
+      box-shadow: 0 16px 36px rgba(22,50,74,0.06);
+    }
+    .system-card h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      color: var(--white);
+      letter-spacing: 1.5px;
+      margin-bottom: 12px;
+    }
+    .system-card p {
+      color: var(--white-dim);
+      font-size: 14.5px;
+      line-height: 1.82;
+      margin-bottom: 14px;
+    }
+    .system-card code {
+      display: block;
+      background: var(--dark3);
+      color: var(--white);
+      padding: 14px 16px;
+      border-radius: 0;
+      font-size: 12.5px;
+      line-height: 1.7;
+      overflow-x: auto;
+    }
+    .system-card a { color: var(--lime); text-decoration: none; font-weight: 600; }
+    .system-card a:hover { color: var(--lime-dim); }
+
+    footer { background: var(--footer-bg); padding: 64px 5vw 28px; border-top: 1px solid var(--footer-line); }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid var(--footer-line);
+    }
+    .footer-brand p { color: var(--footer-soft); font-size: 13.5px; line-height: 1.8; margin-top: 16px; max-width: 280px; }
+    .footer-col h4 { color: var(--footer-text); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; margin-bottom: 18px; }
+    .footer-col a { display: block; color: var(--footer-soft); font-size: 13.5px; text-decoration: none; margin-bottom: 10px; transition: color 0.2s; }
+    .footer-col a:hover { color: #d8edf3; }
+    .footer-bottom {
+      padding-top: 26px; display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 10px; color: var(--footer-faint); font-size: 12px;
+    }
+
+    @media (max-width: 1080px) {
+      .filter-shell,
+      .system-grid,
+      .footer-top { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 900px) {
+      .articles-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .nav-toggle { display: flex; }
+      .filter-shell { gap: 18px; }
+      .filters-card { padding: 20px; border-radius: 0; }
+    }
+
+    @media (max-width: 640px) {
+      body { padding-top: 64px; }
+      nav { height: 64px; padding: 0 4vw; }
+      .mobile-menu { top: 64px; padding: 24px 6vw calc(24px + env(safe-area-inset-bottom)); }
+      .logo-img { width: 42px; height: 42px; }
+      .logo-text { font-size: 17px; letter-spacing: 1.4px; }
+      .logo-sub { font-size: 8px; letter-spacing: 1.5px; }
+      section { padding: 56px 4vw; }
+      .filters-card,
+      .article-body,
+      .system-card { padding: 22px 20px; }
+      h1 { font-size: clamp(54px, 19vw, 76px); line-height: 0.92; margin-bottom: 14px; }
+      .archive-header p,
+      .filters-card > p,
+      .empty-state,
+      .system-card p {
+        font-size: 14.5px;
+        line-height: 1.68;
+      }
+      .archive-header { margin-bottom: 24px; gap: 14px; }
+      .archive-header h2 { font-size: 44px; line-height: 0.94; margin-bottom: 10px; }
+      .archive-meta {
+        font-size: 11px;
+        letter-spacing: 1.2px;
+        white-space: normal;
+      }
+      .filters-card h3 { font-size: 30px; margin-bottom: 8px; }
+      .search-input {
+        padding: 13px 14px;
+        font-size: 14px;
+        margin-bottom: 18px;
+      }
+      .filter-group { margin-bottom: 18px; }
+      .chip-row { gap: 7px; }
+      .filter-chip,
+      .summary-chip,
+      .article-chip {
+        padding: 8px 11px;
+        font-size: 12px;
+      }
+      .results-top {
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 16px;
+      }
+      .results-count { font-size: 13.5px; }
+      .articles-grid { gap: 16px; }
+      .article-card { border-radius: 0; box-shadow: none; }
+      .article-body { padding: 20px 18px 18px; }
+      .article-meta {
+        gap: 8px;
+        margin-bottom: 12px;
+        font-size: 11px;
+        letter-spacing: 1.2px;
+      }
+      .article-title { font-size: 32px; line-height: 1; margin-bottom: 10px; }
+      .article-desc {
+        font-size: 14px;
+        line-height: 1.68;
+        margin-bottom: 14px;
+      }
+      .article-chip-row { gap: 7px; margin-bottom: 18px; }
+      .article-footer {
+        gap: 10px;
+        padding-top: 14px;
+        align-items: flex-start;
+      }
+      .article-link { font-size: 13.5px; }
+      .article-keywords {
+        font-size: 11.5px;
+        line-height: 1.5;
+      }
+      .empty-state { padding: 28px 20px; border-radius: 0; }
+      .system-grid { gap: 16px; }
+      .system-card { border-radius: 0; }
+      .system-card h3 {
+        font-size: 30px;
+        line-height: 1.08;
+        margin-bottom: 10px;
+      }
+      .footer-bottom { justify-content: center; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+<nav aria-label="Primary">
+  <a href="https://striveptlv.com" class="nav-logo">
+    <img src="https://striveptlv.com/logo.png" alt="STRIVE Physical Therapy logo" class="logo-img">
+    <div>
+      <div class="logo-text">STRIVE</div>
+      <div class="logo-sub">Physical Therapy · Las Vegas</div>
+    </div>
+  </a>
+  <div class="nav-links">
+    <div class="nav-dropdown">
+      <a href="https://striveptlv.com/#services">Services</a>
+      <div class="dropdown-menu">
+        <a href="https://striveptlv.com/neuro-wellness">Neuro Wellness</a>
+        <a href="https://striveptlv.com/stroke-rehab">Stroke Rehab</a>
+        <a href="https://striveptlv.com/vestibular-rehab">Vestibular Rehab</a>
+      </div>
+    </div>
+    <a href="https://striveptlv.com/#providers">Our Team</a>
+    <a href="https://striveptlv.janeapp.com" target="_blank" rel="noopener">Scheduling</a>
+    <div class="nav-dropdown">
+      <a href="#">Patient Resource</a>
+      <div class="dropdown-menu">
+        <a href="https://striveptlv.com/insights/">Blog</a>
+        <a href="https://open.spotify.com/show/2nbFBV45QpM37SAdHtobgF?si=Gns3Ft-7SgCNdGbmnOcpag" target="_blank" rel="noopener">Podcast</a>
+        <a href="https://striveptlv.com/moneymanagement/">Online Bill Pay</a>
+        <a href="https://striveptlv.com/patient-resource/">Home Modifications</a>
+      </div>
+    </div>
+    <a href="https://striveptlv.com/#booking" class="nav-book">Book Now</a>
+  </div>
+  <div class="nav-toggle" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="https://striveptlv.com" onclick="toggleMenu(false)">Home</a>
+  <a href="https://striveptlv.com/neuro-wellness" onclick="toggleMenu(false)">Neuro Wellness</a>
+  <a href="https://striveptlv.com/stroke-rehab" onclick="toggleMenu(false)">Stroke Rehab</a>
+  <a href="https://striveptlv.com/vestibular-rehab" onclick="toggleMenu(false)">Vestibular Rehab</a>
+  <a href="https://striveptlv.com/#providers" onclick="toggleMenu(false)">Our Team</a>
+  <a href="https://striveptlv.janeapp.com" target="_blank" rel="noopener" onclick="toggleMenu(false)">Scheduling</a>
+  <div class="mob-dropdown">
+    <div class="mob-dropdown-toggle" onclick="togglePatientResource()">
+      Patient Resource <span class="mob-arrow" id="patientResourceArrow">›</span>
+    </div>
+    <div class="mob-dropdown-items" id="patientResourceItems">
+      <a href="https://striveptlv.com/insights/" onclick="toggleMenu(false)">Blog</a>
+      <a href="https://open.spotify.com/show/2nbFBV45QpM37SAdHtobgF?si=Gns3Ft-7SgCNdGbmnOcpag" target="_blank" rel="noopener">Podcast</a>
+      <a href="https://striveptlv.com/moneymanagement/" onclick="toggleMenu(false)">Online Bill Pay</a>
+      <a href="https://striveptlv.com/patient-resource/" onclick="toggleMenu(false)">Home Modifications</a>
+    </div>
+  </div>
+  <a href="https://striveptlv.com/#booking" class="mob-book" onclick="toggleMenu(false)">Book an Appointment</a>
+</div>
+
+<main>
+  <section class="archive-section">
+    <div class="section-inner">
+      <div class="archive-header">
+        <div>
+          <div class="section-label">Archive</div>
+          <h2>Articles, Podcasts, and Practice Updates</h2>
+          <p>Search by keyword or filter by intervention, topic, and content type to quickly find the content most relevant to your questions.</p>
+        </div>
+        <div class="archive-meta" id="archiveMeta">Loading archive...</div>
+      </div>
+
+      <div class="filter-shell">
+        <div>
+          <div class="results-top">
+            <div class="results-count" id="resultsCount">Loading content...</div>
+            <div class="active-summary" id="activeSummary"></div>
+          </div>
+
+          <div class="articles-grid" id="articlesGrid"></div>
+          <div class="empty-state" id="emptyState">No articles matched the current filters. Try clearing one or two chips, or broaden the search terms.</div>
+        </div>
+
+        <aside class="filters-card">
+          <h3>Refine Results</h3>
+          <p>Narrow the archive to the subjects and content formats that matter most to you.</p>
+
+          <label class="search-label" for="searchInput">Search</label>
+          <input id="searchInput" class="search-input" type="search" placeholder="Search title, summary, keyword, or category">
+
+          <div class="filter-group">
+            <h4>Type</h4>
+            <div class="chip-row" id="typeFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <h4>Interventions</h4>
+            <div class="chip-row" id="interventionFilters"></div>
+          </div>
+
+          <div class="filter-group">
+            <h4>Topics</h4>
+            <div class="chip-row" id="topicFilters"></div>
+          </div>
+
+          <a href="#" class="reset-link" id="resetFilters">Clear all filters</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="../index.html" class="nav-logo">
+          <img src="/logo.png" alt="STRIVE PT Logo" class="logo-img">
+          <div class="logo-text" style="color:white;">STRIVE<div class="logo-sub" style="color:#8fb8c6;">Physical Therapy · Las Vegas</div></div>
+        </a>
+        <p>Clinical education, practice updates, and patient-friendly guidance from STRIVE Physical Therapy in Las Vegas.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Archive</h4>
+        <a href="./">All Insights</a>
+        <a href="why-legs-recover-faster-than-arms.html">Featured Article</a>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <a href="../index.html#providers">Our Team</a>
+        <a href="../index.html#faq">FAQ</a>
+        <a href="../index.html#contact">Contact Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="../stroke-rehab.html">Stroke Rehab</a>
+        <a href="../vestibular-rehab.html">Vestibular Rehab</a>
+        <a href="../index.html#booking">Book via JaneApp</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 STRIVE Physical Therapy &middot; Las Vegas, NV &middot; All rights reserved.</span>
+      <span>Insights archive for articles, updates, and podcasts</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleMenu(forceState) {
+    const menu = document.getElementById('mobileMenu');
+    const patientResourceItems = document.getElementById('patientResourceItems');
+    const patientResourceArrow = document.getElementById('patientResourceArrow');
+    const shouldOpen = typeof forceState === 'boolean'
+      ? forceState
+      : !menu.classList.contains('open');
+
+    menu.classList.toggle('open', shouldOpen);
+    document.body.classList.toggle('menu-open', shouldOpen);
+
+    if (!shouldOpen && patientResourceItems && patientResourceArrow) {
+      patientResourceItems.classList.remove('open');
+      patientResourceArrow.classList.remove('open');
+    }
+  }
+
+  function togglePatientResource() {
+    const patientResourceItems = document.getElementById('patientResourceItems');
+    const patientResourceArrow = document.getElementById('patientResourceArrow');
+
+    if (!patientResourceItems || !patientResourceArrow) {
+      return;
+    }
+
+    patientResourceItems.classList.toggle('open');
+    patientResourceArrow.classList.toggle('open');
+  }
+
+  const contentSources = [
+    {
+      url: 'why-legs-recover-faster-than-arms.html',
+      fallback: {
+        title: 'Why Legs Recover Faster Than Arms',
+        description: 'A stroke recovery article explaining why the legs often regain function faster than the arm, and how targeted rehabilitation can help close that recovery gap.',
+        type: 'blog',
+        published: '2026-04-18',
+        keywords: ['stroke recovery', 'arm recovery', 'leg recovery', 'neuroplasticity', 'spasticity', 'CIMT', 'stroke rehab']
+      }
+    },
+    {
+      sourceType: 'podcast-feed',
+      feedUrl: 'https://anchor.fm/s/111965cb4/podcast/rss',
+      spotifyShowUrl: 'https://open.spotify.com/show/2nbFBV45QpM37SAdHtobgF?si=Gns3Ft-7SgCNdGbmnOcpag',
+      pinnedEpisodeGuid: '',
+      pinnedEpisodeTitle: 'Should Stroke Survivors Train Harder?',
+      maxVisible: 3,
+      fallbackKeywords: ['podcast', 'stroke rehab', 'stroke recovery', 'patient education', 'exercise']
+    }
+  ];
+
+  const taxonomyRules = {
+    interventions: {
+      'Stroke Rehab': ['stroke', 'post-stroke', 'hemiparesis', 'gait training', 'stroke rehab', 'stroke recovery'],
+      'Vestibular Rehab': ['vestibular', 'dizziness', 'vertigo', 'bppv', 'motion sensitivity', 'vestibular rehab'],
+      'Balance and Falls': ['balance', 'fall recovery', 'fall prevention', 'obstacle', 'community mobility'],
+      'Neurological Rehab': ['neurologic', 'neurological', 'brain injury', 'concussion', 'neuro rehab']
+    },
+    topics: {
+      'Podcast Episodes': ['podcast', 'episode', 'audio', 'listen'],
+      'Patient Education': ['education', 'patient education', 'what to expect', 'faq', 'tips'],
+      'Caregiver Guidance': ['caregiver', 'family training', 'support person'],
+      'Exercise and Training': ['exercise', 'strength', 'conditioning', 'high intensity', 'repetition', 'training'],
+      'Practice Updates': ['newsletter', 'practice update', 'clinic update', 'opening', 'announcement'],
+      'Home and Community': ['home', 'home safety', 'community', 'mobility', 'real-world']
+    }
+  };
+
+  const state = {
+    query: '',
+    type: 'All',
+    intervention: 'All',
+    topic: 'All'
+  };
+
+  const ui = {
+    archiveMeta: document.getElementById('archiveMeta'),
+    resultsCount: document.getElementById('resultsCount'),
+    activeSummary: document.getElementById('activeSummary'),
+    articlesGrid: document.getElementById('articlesGrid'),
+    emptyState: document.getElementById('emptyState'),
+    typeFilters: document.getElementById('typeFilters'),
+    interventionFilters: document.getElementById('interventionFilters'),
+    topicFilters: document.getElementById('topicFilters'),
+    searchInput: document.getElementById('searchInput'),
+    resetFilters: document.getElementById('resetFilters')
+  };
+
+  function toTitleCase(value) {
+    return value.replace(/\b\w/g, match => match.toUpperCase());
+  }
+
+  function formatDate(value) {
+    if (!value) return 'Undated';
+    const parsed = new Date(value);
+    if (Number.isNaN(parsed.getTime())) return value;
+    return parsed.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  }
+
+  function normalizeKeywords(keywords) {
+    if (!keywords) return [];
+    if (Array.isArray(keywords)) {
+      return keywords.map(keyword => keyword.trim()).filter(Boolean);
+    }
+    return keywords
+      .split(',')
+      .map(keyword => keyword.trim())
+      .filter(Boolean);
+  }
+
+  function classifyFromKeywords(keywords) {
+    const normalized = keywords.map(keyword => keyword.toLowerCase());
+    const interventions = [];
+    const topics = [];
+
+    Object.entries(taxonomyRules.interventions).forEach(([label, terms]) => {
+      if (terms.some(term => normalized.some(keyword => keyword.includes(term)))) {
+        interventions.push(label);
+      }
+    });
+
+    Object.entries(taxonomyRules.topics).forEach(([label, terms]) => {
+      if (terms.some(term => normalized.some(keyword => keyword.includes(term)))) {
+        topics.push(label);
+      }
+    });
+
+    return { interventions, topics };
+  }
+
+  function estimateReadTime(text) {
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    if (!words) return '2 min read';
+    return Math.max(2, Math.round(words / 200)) + ' min read';
+  }
+
+  function stripHtml(html) {
+    const div = document.createElement('div');
+    div.innerHTML = html || '';
+    return (div.textContent || div.innerText || '').trim();
+  }
+
+  function truncateText(text, maxLength) {
+    if (!text || text.length <= maxLength) return text;
+    return text.slice(0, maxLength).trim() + '...';
+  }
+
+  function normalizeEpisode(item) {
+    return {
+      title: item.title || 'Untitled Episode',
+      description: truncateText(stripHtml(item.description || item.content || ''), 180),
+      pubDate: item.pubDate || '',
+      guid: item.guid || item.id || item.link || '',
+      link: item.link || item.enclosure?.link || ''
+    };
+  }
+
+  function matchesPinnedEpisode(item, config) {
+    const pinnedTitle = (config.pinnedEpisodeTitle || '').trim().toLowerCase();
+    const pinnedGuid = (config.pinnedEpisodeGuid || '').trim();
+    return Boolean(
+      (pinnedGuid && item.guid === pinnedGuid) ||
+      (pinnedTitle && item.title.trim().toLowerCase() === pinnedTitle)
+    );
+  }
+
+  async function loadArticle(source) {
+    try {
+      const response = await fetch(source.url, { cache: 'no-store' });
+      if (!response.ok) throw new Error('Fetch failed');
+      const html = await response.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+
+      const title = doc.querySelector('meta[name="article-title"]')?.content
+        || doc.querySelector('h1')?.textContent?.trim()
+        || doc.title
+        || source.fallback.title;
+      const description = doc.querySelector('meta[name="article-summary"]')?.content
+        || doc.querySelector('meta[name="description"]')?.content
+        || source.fallback.description;
+      const type = doc.querySelector('meta[name="content-type"]')?.content
+        || source.fallback.type
+        || 'blog';
+      const published = doc.querySelector('meta[name="article-date"]')?.content
+        || doc.querySelector('meta[property="article:published_time"]')?.content
+        || source.fallback.published;
+      const keywords = normalizeKeywords(
+        doc.querySelector('meta[name="content-keywords"]')?.content
+        || source.fallback.keywords
+      );
+      const articleBody = doc.querySelector('[data-article-body]')?.textContent || description || '';
+      const categories = classifyFromKeywords(keywords);
+
+      return {
+        url: source.url,
+        title,
+        description,
+        type: toTitleCase(type),
+        published,
+        keywords,
+        interventions: categories.interventions,
+        topics: categories.topics,
+        readTime: estimateReadTime(articleBody)
+      };
+    } catch (error) {
+      const fallbackKeywords = normalizeKeywords(source.fallback.keywords);
+      const categories = classifyFromKeywords(fallbackKeywords);
+      return {
+        url: source.url,
+        title: source.fallback.title,
+        description: source.fallback.description,
+        type: toTitleCase(source.fallback.type || 'blog'),
+        published: source.fallback.published,
+        keywords: fallbackKeywords,
+        interventions: categories.interventions,
+        topics: categories.topics,
+        readTime: '2 min read'
+      };
+    }
+  }
+
+  async function loadPodcastFeed(source) {
+    try {
+      if (!source.feedUrl) throw new Error('Missing podcast feed URL');
+
+      const apiUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(source.feedUrl);
+      const response = await fetch(apiUrl, { cache: 'no-store' });
+      if (!response.ok) throw new Error('Podcast feed request failed');
+
+      const data = await response.json();
+      const items = Array.isArray(data.items) ? data.items.map(normalizeEpisode) : [];
+      if (!items.length) throw new Error('No podcast episodes returned');
+
+      const pinnedEpisode = items.find(item => matchesPinnedEpisode(item, source));
+      const unpinned = items.filter(item => !matchesPinnedEpisode(item, source));
+
+      const visibleItems = [];
+      if (pinnedEpisode) visibleItems.push({ item: pinnedEpisode, pinned: true });
+
+      const remainingSlots = Math.max((source.maxVisible || 3) - visibleItems.length, 0);
+      unpinned.slice(0, remainingSlots).forEach(item => {
+        visibleItems.push({ item, pinned: false });
+      });
+
+      return visibleItems.map(({ item, pinned }) => {
+        const keywords = normalizeKeywords([
+          'podcast',
+          'stroke rehab',
+          'stroke recovery',
+          'patient education',
+          pinned ? 'featured episode' : 'recent episode',
+          ...normalizeKeywords(source.fallbackKeywords || [])
+        ]);
+        const categories = classifyFromKeywords(keywords);
+
+        return {
+          url: item.link || source.spotifyShowUrl || source.feedUrl,
+          title: item.title,
+          description: item.description || 'Open the episode to listen on your podcast channel.',
+          type: 'Podcast',
+          published: item.pubDate,
+          keywords,
+          interventions: categories.interventions,
+          topics: categories.topics,
+          readTime: 'Listen now',
+          ctaLabel: 'Listen to episode',
+          external: true,
+          featured: pinned
+        };
+      });
+    } catch (error) {
+      const keywords = normalizeKeywords(source.fallbackKeywords || ['podcast', 'stroke rehab', 'patient education']);
+      const categories = classifyFromKeywords(keywords);
+      return [{
+        url: source.spotifyShowUrl || source.feedUrl || 'stroke-rehab-draft.html#content-hub',
+        title: source.pinnedEpisodeTitle || 'Featured Recovery Podcast',
+        description: 'Podcast episodes from the stroke rehab content hub can be surfaced here automatically from your RSS feed.',
+        type: 'Podcast',
+        published: '',
+        keywords,
+        interventions: categories.interventions,
+        topics: categories.topics,
+        readTime: 'Listen now',
+        ctaLabel: 'Open podcast',
+        external: true,
+        featured: true
+      }];
+    }
+  }
+
+  function renderChipGroup(container, values, stateKey) {
+    container.innerHTML = '';
+    ['All', ...values].forEach(value => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'filter-chip' + (state[stateKey] === value ? ' active' : '');
+      button.textContent = value;
+      button.addEventListener('click', () => {
+        state[stateKey] = value;
+        renderFilters(window.archiveItems || []);
+        renderArticles(window.archiveItems || []);
+      });
+      container.appendChild(button);
+    });
+  }
+
+  function renderFilters(items) {
+    const types = Array.from(new Set(items.map(item => item.type))).sort();
+    const interventions = Array.from(new Set(items.flatMap(item => item.interventions))).sort();
+    const topics = Array.from(new Set(items.flatMap(item => item.topics))).sort();
+
+    renderChipGroup(ui.typeFilters, types, 'type');
+    renderChipGroup(ui.interventionFilters, interventions, 'intervention');
+    renderChipGroup(ui.topicFilters, topics, 'topic');
+  }
+
+  function filterItems(items) {
+    const query = state.query.trim().toLowerCase();
+
+    return items.filter(item => {
+      const matchesType = state.type === 'All' || item.type === state.type;
+      const matchesIntervention = state.intervention === 'All' || item.interventions.includes(state.intervention);
+      const matchesTopic = state.topic === 'All' || item.topics.includes(state.topic);
+      const haystack = [
+        item.title,
+        item.description,
+        item.type,
+        item.keywords.join(' '),
+        item.interventions.join(' '),
+        item.topics.join(' ')
+      ].join(' ').toLowerCase();
+      const matchesQuery = !query || haystack.includes(query);
+
+      return matchesType && matchesIntervention && matchesTopic && matchesQuery;
+    });
+  }
+
+  function renderSummary() {
+    const parts = [];
+    if (state.type !== 'All') parts.push('Type: ' + state.type);
+    if (state.intervention !== 'All') parts.push('Intervention: ' + state.intervention);
+    if (state.topic !== 'All') parts.push('Topic: ' + state.topic);
+    if (state.query.trim()) parts.push('Search: "' + state.query.trim() + '"');
+
+    ui.activeSummary.innerHTML = '';
+    parts.forEach(part => {
+      const chip = document.createElement('span');
+      chip.className = 'summary-chip';
+      chip.textContent = part;
+      ui.activeSummary.appendChild(chip);
+    });
+  }
+
+  function renderArticles(items) {
+    const filtered = filterItems(items);
+    ui.articlesGrid.innerHTML = '';
+    ui.emptyState.style.display = filtered.length ? 'none' : 'block';
+    ui.resultsCount.textContent = filtered.length + ' result' + (filtered.length === 1 ? '' : 's');
+    renderSummary();
+
+    filtered.forEach(item => {
+      const card = document.createElement('a');
+      card.className = 'article-card';
+      card.href = item.url;
+      if (item.external) {
+        card.target = '_blank';
+        card.rel = 'noopener';
+      }
+      const ctaLabel = item.ctaLabel || 'Read article';
+
+      const chips = [item.type, ...item.interventions, ...item.topics].slice(0, 5)
+        .map(label => '<span class="article-chip">' + label + '</span>')
+        .join('');
+
+      card.innerHTML = [
+        '<div class="article-rail"></div>',
+        '<div class="article-body">',
+        '  <div class="article-meta">',
+        '    <span class="article-type">' + item.type + '</span>',
+        '    <span>' + formatDate(item.published) + ' · ' + item.readTime + '</span>',
+        '  </div>',
+        '  <h3 class="article-title">' + item.title + '</h3>',
+        '  <p class="article-desc">' + item.description + '</p>',
+        '  <div class="article-chip-row">' + chips + '</div>',
+        '  <div class="article-footer">',
+        '    <span class="article-link">' + ctaLabel + '</span>',
+        '    <span class="article-keywords">' + item.keywords.slice(0, 3).join(' · ') + '</span>',
+        '  </div>',
+        '</div>'
+      ].join('');
+
+      ui.articlesGrid.appendChild(card);
+    });
+  }
+
+  async function initArchive() {
+    ui.archiveMeta.textContent = 'Loading archive...';
+    const loadedGroups = await Promise.all(contentSources.map(source => (
+      source.sourceType === 'podcast-feed' ? loadPodcastFeed(source) : loadArticle(source)
+    )));
+    const items = loadedGroups.flat();
+    items.sort((a, b) => new Date(b.published) - new Date(a.published));
+    window.archiveItems = items;
+    ui.archiveMeta.textContent = items.length + ' pieces in archive';
+    renderFilters(items);
+    renderArticles(items);
+  }
+
+  ui.searchInput.addEventListener('input', event => {
+    state.query = event.target.value;
+    renderArticles(window.archiveItems || []);
+  });
+
+  ui.resetFilters.addEventListener('click', event => {
+    event.preventDefault();
+    state.query = '';
+    state.type = 'All';
+    state.intervention = 'All';
+    state.topic = 'All';
+    ui.searchInput.value = '';
+    renderFilters(window.archiveItems || []);
+    renderArticles(window.archiveItems || []);
+  });
+
+  initArchive();
+</script>
+</body>
+</html>
