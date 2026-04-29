@@ -799,11 +799,13 @@
     <div class="nav-dropdown">
       <a href="https://striveptlv.com/#services">Services</a>
       <div class="dropdown-menu">
-        <a href="/wellness.html">Neuro Wellness</a>
+        <a href="/wellness.html">Wellness Classes</a>
         <a href="https://striveptlv.com/stroke-rehab.html">Stroke Rehab</a>
-        <a href="https://striveptlv.com/vestibular-rehab">Vestibular Rehab</a>
+        <a href="https://striveptlv.com/vestibular-rehab.html">Vestibular Rehab</a>
+        <a href="/fnd.html">FND Rehab</a>
       </div>
     </div>
+    <a href="/about.html">About</a>
     <a href="#scheduling" data-schedule-trigger>Scheduling</a>
     <div class="nav-dropdown">
       <a href="#">Patient Resource</a>
@@ -823,9 +825,11 @@
 
 <div class="mobile-menu" id="mobileMenu">
   <a href="https://striveptlv.com" onclick="toggleMenu(false)">Home</a>
-  <a href="/wellness.html" onclick="toggleMenu(false)">Neuro Wellness</a>
+  <a href="/about.html" onclick="toggleMenu(false)">About</a>
+  <a href="/fnd.html" onclick="toggleMenu(false)">FND Rehab</a>
+  <a href="/wellness.html" onclick="toggleMenu(false)">Wellness Classes</a>
   <a href="https://striveptlv.com/stroke-rehab.html" onclick="toggleMenu(false)">Stroke Rehab</a>
-  <a href="https://striveptlv.com/vestibular-rehab" onclick="toggleMenu(false)">Vestibular Rehab</a>
+  <a href="https://striveptlv.com/vestibular-rehab.html" onclick="toggleMenu(false)">Vestibular Rehab</a>
   <a href="#scheduling" data-schedule-trigger onclick="toggleMenu(false)">Scheduling</a>
   <div class="mob-dropdown">
     <div class="mob-dropdown-toggle" onclick="togglePatientResource()">
@@ -1037,6 +1041,16 @@
   });
 
   const contentSources = [
+    {
+      url: 't6-short-circuit-understanding-autonomic-dysreflexia.html',
+      fallback: {
+        title: 'The T6 Short Circuit: Understanding Autonomic Dysreflexia',
+        description: 'A clinical explainer on autonomic dysreflexia, why injuries at or above T6 are high risk, and how to recognize and respond to this medical emergency.',
+        type: 'blog',
+        published: '2026-04-28',
+        keywords: ['autonomic dysreflexia', 'spinal cord injury', 'T6 injury', 'neurogenic bladder', 'bowel management', 'patient education', 'neurological rehab']
+      }
+    },
     {
       url: 'why-legs-recover-faster-than-arms.html',
       fallback: {
